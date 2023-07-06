@@ -22,7 +22,7 @@ def check_answer(guess, answer, turns):
     print("Too low")
     return turns - 1
   else:
-    print(f"You got it! The answer is {guess}")
+    print(f"You got it! The answer is {answer}")
 
 def set_difficulty():
   level = input("Choose a difficulty. Type 'easy' or 'hard'. ")
